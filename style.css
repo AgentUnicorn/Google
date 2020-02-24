@@ -1,32 +1,26 @@
 nav {
     text-align: right;
 }
-
 .nav-item {
     text-decoration: none;
     color: black;
     font-size: 20px;
 }
-
 .nav-space {
     margin-right: 20px;
 }
-
 .nav-item:hover {
     text-decoration: underline;
     color: grey;
 }
-
 .logo {
     height: 130px;
     padding-bottom: 25px;
 }
-
 section {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 110px;
 }
-
 .search-bar {
     width: 500px;
     height: 40px;
@@ -36,13 +30,11 @@ section {
     padding-left: 40px;
     padding-right: 40px;
 }
-
 input:focus {
     outline: none;
     border-radius: 24px;
     border: 1px solid lightblue;
 }
-
 .Google-button {
     width: 120px;
     height: 30px;
@@ -51,21 +43,20 @@ input:focus {
     margin-right: 10px;
     margin-left: 10px;
 }
-
 .Google-button:hover {
     border: 1px solid black;
 }
-
 .button-space {
     margin-bottom: 20px;
     margin-top: 20px;
 }
-
 .offer-space {
     margin-right: 5px;
     margin-left: 5px;
 }
-
+.offer-space:hover {
+    color: purple;
+}
 .search-icon {
     position: relative;
     width: 20px;
@@ -73,7 +64,6 @@ input:focus {
     left: 40px;
     top: 4px;
 }
-
 .mic-icon {
     position: relative;
     width: 20px;
@@ -118,11 +108,46 @@ footer {
     padding: 20px 20px;
 }
 .footer-space {
-    padding: 20px 20px;
+    padding: 20px;
 }
 .left-footer-item:hover {
     text-decoration: underline;
 }
 .right-footer-item:hover {
     text-decoration: underline;
+}
+/*adding tooltip*/
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 2px;
+
+    position: absolute; 
+    z-index: 1; 
+    top: 50px;
+    right: 40px;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.account .accounttext {
+    visibility: hidden;
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 2px;
+
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    right: 20px;
+}
+.account:hover .accounttext {
+    visibility: visible;
 }
