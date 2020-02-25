@@ -104,8 +104,10 @@ footer {
 .above-item {
     font-size: 20px;
     color: black;
-    margin-left: 15px;
     padding: 20px 20px;
+}
+.nation {
+    margin-left: 15px;
 }
 .footer-space {
     padding: 20px;
